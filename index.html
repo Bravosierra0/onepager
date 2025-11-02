@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beat Sifrig - IT Project Manager</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: white;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            width: 210mm;
+            height: 297mm;
+            margin: 0 auto;
+            background: white;
+            display: flex;
+        }
+        .sidebar {
+            width: 35%;
+            background: #34495e;
+            color: white;
+            padding: 40px 30px;
+        }
+        .main {
+            width: 65%;
+            padding: 40px 40px 40px 50px;
+        }
+        .photo-placeholder {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 25px;
+            display: block;
+            border: 4px solid white;
+            background: #34495e;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            font-weight: 600;
+            color: white;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        .tagline {
+            font-size: 16px;
+            color: #7f8c8d;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+        h2 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #16a085;
+            color: #2c3e50;
+        }
+        .sidebar h2 {
+            color: white;
+            border-bottom: 2px solid #16a085;
+        }
+        .pitch {
+            font-size: 15px;
+            line-height: 1.7;
+            margin-bottom: 30px;
+            color: #555;
+        }
+        .highlight {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+        .highlight h3 {
+            font-size: 16px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .highlight ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .highlight li {
+            padding-left: 20px;
+            position: relative;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        .highlight li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #16a085;
+            font-weight: bold;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        .project-title {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+        .project-detail {
+            font-size: 13px;
+            color: #555;
+            line-height: 1.5;
+        }
+        .contact-item {
+            margin-bottom: 15px;
+            font-size: 14px;
+            word-break: break-all;
+        }
+        .contact-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 3px;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #16a085;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-top: 15px;
+        }
+        .skill-item {
+            font-size: 14px;
+            padding: 8px 0;
+        }
+        .skill-name {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 3px;
+        }
+        .languages {
+            margin-top: 15px;
+        }
+        .lang-item {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        .location {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="sibezh.jpeg" alt="Beat Sifrig" class="photo-placeholder" style="object-fit: cover; background: none; font-size: 0;">
+            
+            <h2>Kontakt</h2>
+            <div class="contact-item">
+                <span class="contact-label">E-Mail</span>
+                berosi@outlook.com
+            </div>
+            <div class="contact-item">
+                <span class="contact-label">Telefon</span>
+                +41 79 779 31 51
+            </div>
+            <div class="contact-item">
+                <span class="contact-label">LinkedIn</span>
+                linkedin.com/in/beatsifrig
+            </div>
+            
+            <h2 style="margin-top: 30px;">Kernkompetenzen</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <span class="skill-name">Projekt-Management</span>
+                    20+ Jahre Erfahrung
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Release Management</span>
+                    ITIL-zertifiziert
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Compliance & Audit</span>
+                    FINMA, SOX
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Team-Führung</span>
+                    Bis 20 Mitarbeitende
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Mainframe & Web</span>
+                    Legacy + Modern
+                </div>
+            </div>
+            
+            <h2 style="margin-top: 30px;">Sprachen</h2>
+            <div class="languages">
+                <div class="lang-item">Deutsch (Muttersprache)</div>
+                <div class="lang-item">Englisch (Verhandlungssicher)</div>
+            </div>
+            
+            <div class="location">
+                <strong>Standort</strong><br>
+                Zürich Metropolitan Area<br>
+                Schweiz
+            </div>
+        </div>
+        
+        <div class="main">
+            <h1>Beat Sifrig</h1>
+            <div class="tagline">IT Project Manager | Diplom Wirtschaftsinformatiker HF</div>
+            
+            <div class="pitch">
+                Ich bin der Projekt-Manager, den Sie holen, wenn IT ruhige Umsetzung braucht. Ich habe Mainframe-Betrieb, Web-Plattform-Releases und cross-funktionale Teams bei grossen Institutionen (Banken, Börsen, Spitäler, Versicherungen) geleitet. Ob regulatorischer Druck, millionenschwere Infrastruktur-Projekte oder verteilte Teams, die Ausrichtung brauchen – ich stelle sicher, dass Technologie und Menschen zusammenarbeiten. Part-time verfügbar, voller Einsatz garantiert.
+            </div>
+            
+            <div class="highlight">
+                <h3>Was mich auszeichnet</h3>
+                <ul>
+                    <li>Bringe Ruhe in komplexe IT-Projekte – keine Hektik, nur Resultate</li>
+                    <li>Verstehe sowohl Mainframe als auch moderne Web-Plattformen</li>
+                    <li>Erfahrung über Branchen hinweg: Finance, Healthcare, Insurance, Exchange</li>
+                    <li>Audit- und Compliance-erprobt (FINMA TBTF, SOX)</li>
+                    <li>Fokus auf Menschen UND Technologie – nicht nur Prozesse</li>
+                </ul>
+            </div>
+            
+            <h2>Ausgewählte Projekte</h2>
+            
+            <div class="project">
+                <div class="project-title">Disaster Recovery & Operational Continuity</div>
+                <div class="project-detail">
+                    Stream-Leading für PostTrading IT im FINMA-regulierten OCP-Projekt ("Too Big to Fail"). Mehrjähriges Projekt bei Credit Suisse mit Fokus auf regionale Katastrophen-Massnahmen, Flash/Image Copy, verbesserte Database Recovery.
+                </div>
+            </div>
+            
+            <div class="project">
+                <div class="project-title">Federation-Lösung für Grossbanken</div>
+                <div class="project-detail">
+                    Etablierung einer Federation-Solution über alle Web-Applikationen im Domain Securities Services für Grosskunden CS/UBS (MS-ADFS, IDP, JWT, REST API). Follow-up: neues User-Entitlement-Management-System für gleichen Scope.
+                </div>
+            </div>
+            
+            <div class="project">
+                <div class="project-title">Mainframe Transformation & Hardware Lifecycle</div>
+                <div class="project-detail">
+                    Transformation der Mainframe-Systemlandschaft zu Multi-Site Operations bei Credit Suisse. Hardware/OS Lifecycle Projekte mit Budgets im zweistelligen Millionen-EUR-Bereich.
+                </div>
+            </div>
+            
+            <div class="project">
+                <div class="project-title">SAP Outsourcing & Zertifizierung</div>
+                <div class="project-detail">
+                    Outsourcing SAP Basis Operations und gesamte Hardware-Landschaft beim Universitätsspital Zürich. Zertifizierung des SAP-Teams als Customer Competence Center (reduzierte Lizenzkosten, verbessertes Lizenz-Modell).
+                </div>
+            </div>
+            
+            <h2 style="margin-top: 25px;">Beruflicher Hintergrund</h2>
+            <div style="font-size: 14px; line-height: 1.7; color: #555;">
+                <strong>SIX Group Services</strong> (2018-2024): Head Web Application Engineering, IT Post Trading Management<br>
+                <strong>Credit Suisse</strong> (2007-2018): Mainframe Technology, z/OS Engineering, Projects<br>
+                <strong>Universitätsspital Zürich</strong> (2004-2007): Project Manager CCC SAP<br>
+                <strong>Weitere Stationen:</strong> Payserv/Telekurs, Zurich Insurance, EDS, Alcatel, Sulzer
+            </div>
+        </div>
+    </div>
+</body>
+</html>
